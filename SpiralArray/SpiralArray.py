@@ -1,0 +1,2 @@
+def spiralTravers(array):
+  pass

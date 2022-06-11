@@ -10,8 +10,11 @@ Non-increasing values are still valid ex : 1, 1, 1, 1, 1, 1
 Note that empty arrays and arrays of one element are monotonic
 
 -EX input 
+```
 array = [-1, -5, -10, -1100, -1100, -1101, -1102, -9001]
+```
 
 -EX output
+```
 true
-
+```
