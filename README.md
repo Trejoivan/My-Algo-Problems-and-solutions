@@ -5,5 +5,5 @@
 # You Dare to challenge me? 
 - feel free to create pull requests if you think you have a better solution
  
-# Want to add ?
+# Have an algo you'd like to add ?
 -Clone and open a pull request to add your own algo problems
