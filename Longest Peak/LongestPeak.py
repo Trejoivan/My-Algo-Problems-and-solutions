@@ -3,12 +3,9 @@
 def LongestPeak(array):
   #Variable that will keep track of longestPeak 
   longestPeak = 0
-
   #start i at one so that you can retrack your i value and check before and after
   i = 1
-
   #while loop to loop through starting at index 1 from above and stops before the end of the array
-
   while i < len(array) - 1:
     #isPeak will check for a peak by looking at the previous i value and the next i value
     isPeak = array[i -1] < array[i] and array[i] > array[i + 1]
@@ -17,9 +14,7 @@ def LongestPeak(array):
     if not isPeak:
         i += 1
         continue
-    
     #if peak is found , two pointers are created, on on prev and on on next
-
     leftIdx = i - 2
     #while loop to find all values decreasing ensuring not to reach below 0
     while leftIdx >= 0 and array[leftIdx] < array[leftIdx + 1]:
