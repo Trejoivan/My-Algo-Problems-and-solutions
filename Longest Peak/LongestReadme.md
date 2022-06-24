@@ -15,4 +15,4 @@ array = [1, 2, 3, 3, 4, 0, 10, 6, 5 , -1, -3, 2, 3]
 ```
 6 
 ```
-- the ansswer is 6 because the peak that is the longest is [0, 10, 6, 5, -1, -3]
+- the ansswer is 6 because the peak that is the longest is [0, 10, 6, 5, -1, -3] 
