@@ -4,7 +4,7 @@
 
 - A peak is defined as adjacent int in the array that are strictly increasing until they reach a tip and then begin to decrease
 
-- Ex: [1, 4, 10, 2] forms a peak, but the int 4 ,0, 10 don't neigther do the int [1, 2, 2, 0]. similarly, the int [1, 2, 3] dont form a peak because there aren't strictly decreasing int after the 3.
+- Ex: [1, 4, 10, 2] forms a peak, but the int 4 ,0, 10 don't neigther do the int [1, 2, 2, 0]. similarly, the int [1, 2, 3] dont form a peak because there aren't strictly decreasing int afte r the 3.
 
 - EX input :
 ```
