@@ -1,6 +1,6 @@
 # Data Structures and Algorithms questions with solutions
 - Binary Trees
-- 
+- Linked Lists
 - Test you algo knowledge and view my own solutions to a large selections of popular Algo problems (Beginner-Medium difficulty) 
 
 # Currently only containing basic array Algorithmic problmes
