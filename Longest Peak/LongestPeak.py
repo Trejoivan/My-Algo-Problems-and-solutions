@@ -34,10 +34,8 @@ def LongestPeak(array):
 
     #i becomes rightIdx to start from where the last peak left off
     i = rightIdx
-
   
   return longestPeak
-
 
 print('test 1')
 print(LongestPeak([1, 2, 3, 3, 4, 0, 10, 6, 5 , -1, -3, 2, 3]) == 6)
