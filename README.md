@@ -2,6 +2,7 @@
 - Binary Trees
 - Linked Lists
 - Graphs
+- tries
 - Test you algo knowledge and view my own solutions to a large selections of popular Algo problems (Beginner-Medium difficulty) 
 
 # Currently only containing basic array Algorithmic problmes
