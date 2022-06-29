@@ -10,25 +10,64 @@ class DoublyLinkedList:
     self.head = None
     self.tail = None
 
+  #look into explanations for step by step explanations
   def setHead(self, node):
     if self.head is None:
       self.head = node
       self.tail = node
     self.insertBefore(self.head, node)
 
-  def setTail(self, node):
-      pass
-
-  def insertBefore(self, node, nodeToInsert):
-      pass
-
-  def insertAfter(self, node, nodeToInsert):
-      pass
-
-  def insertAtPosition(self, position, nodeToInsert):
-      pass
 
   #look into explanations for step by step explanations
+  def setTail(self, node):
+    if self.tail is None:
+      self.setHead(node)
+      return
+    self.insertAfter(self.tail, node)
+
+
+  #look into explanations for step by step explanations
+  def insertBefore(self, node, nodeToInsert):
+    if nodeToInsert == self.head and nodeToInsert == self.tail:
+      return
+    self.remove(nodeToInsert)
+    nodeToInsert.prev = node.prev 
+    nodeToInsert.next = node 
+    if node.prev is None: 
+      self.head = nodeToInsert
+    else:
+      node.prev.next = nodeToInsert
+    node.prev = nodeToInsert
+
+  #look into explanations for step by step explanations
+  def insertAfter(self, node, nodeToInsert):
+    if nodeToInsert == self.head and nodeToInsert == self.tail:
+      return
+    self.remove(nodeToInsert)
+    nodeToInsert.prev = node
+    nodeToInsert.next = node.next
+    if node.next is None:
+      self.tail = nodeToInsert
+    else:
+      node.next.prev = nodeToInsert
+    node.next = nodeToInsert
+
+  #look into explanations for step by step explanations
+  def insertAtPosition(self, position, nodeToInsert):
+    if position == 1:
+      self.setHead(nodeToInsert)
+      return
+    node = self.head
+    currentPosition = 1
+    while node is not None and currentPosition != position:
+      node = node.next
+      currentPosition += 1
+    if node is not None:
+      self.insertBefore(node, nodeToInsert)
+    else:
+      self.setTail(nodeToInsert)
+
+  #look into explanations for step by step explanations (REMOVE.py)
   def removeNodesWithValue(self, value):
     node = self.head
     while node is not None:
@@ -53,6 +92,7 @@ class DoublyLinkedList:
       node = node.next
     return node is not None
 
+  #look into explanations for step by step explanations (REMOVE.py)
   def removeNodeBindings(self, node):
     if node.prev is not None:
       node.prev.next = node.next
