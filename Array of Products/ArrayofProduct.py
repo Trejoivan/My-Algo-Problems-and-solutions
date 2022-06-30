@@ -5,7 +5,7 @@ def arrayOfProducts(array):
   answer = []
 
   while exempt < len(array):
-    #runnning sum will 'refresh with each while loop'
+    #runnning sum will 'refresh with each while loop' 
     runningSum = 1
       
     for idx, i in enumerate(array):
