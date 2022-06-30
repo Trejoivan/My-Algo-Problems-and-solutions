@@ -14,7 +14,7 @@ def arrayOfProducts(array):
           continue
       #begin compounding the values
       else:
-          runningSum *= i
+          runningSum *= i 
     
     #add the values to the answer array and also increase the exempted value
     answer.append(runningSum)
