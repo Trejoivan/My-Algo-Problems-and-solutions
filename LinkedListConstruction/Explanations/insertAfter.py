@@ -3,9 +3,12 @@
 
 
 def insertAfter(self, node, nodeToInsert):
+  #goind to check for an empty LL
   if nodeToInsert == self.head and nodeToInsert == self.tail:
     return
+  
   self.remove(nodeToInsert)
+  
   nodeToInsert.prev = node
   nodeToInsert.next = node.next
   if node.next is None:
