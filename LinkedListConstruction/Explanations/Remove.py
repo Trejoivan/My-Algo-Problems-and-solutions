@@ -1,6 +1,5 @@
 
 
-
 def removeNodesWithValue(self, value):
   node = self.head
   while node is not None:

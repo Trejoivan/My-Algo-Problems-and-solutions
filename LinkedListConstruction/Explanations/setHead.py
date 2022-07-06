@@ -1,5 +1,7 @@
  
  
+# Big 0 = time: O(1); space O(1)
+
 def setHead(self, node):
   # if the LL is empty the below will check and then set the head and tail to the given node
   if self.head is None:
