@@ -19,7 +19,7 @@
 # PYTHON -- Data Structures and Algorithms questions with solutions 
 - Binary Trees
 - Linked Lists
-- Graphs
+- Graphs 
 - tries
 - Test you algo knowledge and view my own solutions to a large selections of popular Algo problems (Beginner-Medium difficulty) 
 
