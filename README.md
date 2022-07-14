@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # PYTHON -- Data Structures and Algorithms questions with solutions 
 - Binary Trees
 - Linked Lists 
