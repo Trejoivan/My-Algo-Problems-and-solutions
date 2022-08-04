@@ -1,5 +1,5 @@
 
-# PYTHON -- Data Structures and Algorithms questions with solutions 
+# PYTHON -- Data Structures and Algorithms questions with solutions/ explanations
 - Binary Trees
 - Linked Lists 
 - Graphs
