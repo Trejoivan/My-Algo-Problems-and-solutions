@@ -29,7 +29,7 @@
 - feel free to create pull requests if you think you have a better solution
  
 # Have an algo you'd like to add ?
--Clone and open a pull request to add your own algo problems
+-Clone and open a pull request to add your own algo problems 
  
   
  
