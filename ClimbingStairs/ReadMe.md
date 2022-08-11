@@ -11,3 +11,5 @@ solution(n) = 1;
 solution(n) = 2.
 
 You can either climb 2 steps at once or climb 1 step two times.
+
+- Think of a dynamic bottom up solution
