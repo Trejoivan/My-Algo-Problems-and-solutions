@@ -276,30 +276,30 @@ def swapNum(number):
 #  [6,10,7,8], 
 #  [1,4,2,0]]))
 
-def solution(a2b, b2a, trips):
-    time = min(a2b) + 100
-    pos = 0
-    flights = 1
+# def solution(a2b, b2a, trips):
+#     time = min(a2b) + 100
+#     pos = 0
+#     flights = 1
     
-    while trips > 0:
-        if flights == 1:
-            if b2a[pos] < time:
-                pos += 1
-            time += b2a[pos] + 100
-            flights = 0
-            trips -= 1
+#     while trips > 0:
+#         if flights == 1:
+#             if b2a[pos] < time:
+#                 pos += 1
+#             time += b2a[pos] + 100
+#             flights = 0
+#             trips -= 1
             
-        else:
-            if a2b[pos] < time:
-                pos += 1
-            print('time', time)
-            time += a2b[pos] + 100
-            flights = 1
+#         else:
+#             if a2b[pos] < time:
+#                 pos += 1
+#             print('time', time)
+#             time += a2b[pos] + 100
+#             flights = 1
             
             
-    return time - 100
+#     return time - 100
 
-print(solution( [0, 200, 500], [99, 210, 450], 1))
+# print(solution( [0, 200, 500], [99, 210, 450], 1))
 
 
 # You are given a string s. Consider the following algorithm applied to this string:
@@ -330,31 +330,32 @@ print(solution( [0, 200, 500], [99, 210, 450], 1))
 
 # A string consisting of English lowercase letters.
 
+# def mineSweeper(matrix):
+#   result = []
+#   for _ in range(len(matrix)):
+#     result.append([])
+#   for i in range(len(matrix)):
 
-def mineSweeper(matrix):
-  result = []
-  for _ in range(len(matrix)):
-    result.append([])
-  for i in range(len(matrix)):
+#     for j in range(len(matrix[0])):
+#       result[i].append(countBombsSurrounding([i, j], matrix))
 
-    for j in range(len(matrix[0])):
-      result[i].append(countBombsSurrounding([i, j], matrix))
+# def countBombsSurrounding(arr, matrix):
+#   bombs = 0
+#   deepBorder = len(matrix) - 1
+#   wideBorder = len(matrix[0]) - 1
 
-def countBombsSurrounding(arr, matrix):
-  bombs = 0
-  deepBorder = len(matrix) - 1
-  wideBorder = len(matrix[0]) - 1
+#   deepLow = roundToBorder(coordi[0], deepBorder)
 
-  deepLow = roundToBorder(coordi[0], deepBorder)
-
-def roundToBorder(num , border):
+# def roundToBorder(num , border):
   
-  if num < 0:
-    return 0
+#   if num < 0:
+#     return 0
 
-  if num > border:
-    return border
+#   if num > border:
+#     return border
 
-  return num
+#   return num
 
 
+index = "abcdefghijklmnopqrstuvwxyz".index('r')
+print('efghijklmnopqrstuvwxyzabcd'[index])
